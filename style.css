@@ -1,0 +1,505 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#main #page1{
+    height: 100vh;
+    width: 100%;
+    padding: 0.1px;
+    position: relative;
+    background-color: rgb(82, 77, 77);
+    color: white;
+    text-transform: uppercase;
+}
+
+#page1 img{
+    height: 600px;
+    width: 1200px;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    object-fit: cover;
+    object-position: center;
+}
+
+#page1 h1{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 60px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+#page1 p{
+    position: absolute;
+    left: 50%;
+    top: 57%;
+    transform: translate(-50%,-50%);
+    font-weight: 400;
+    font-size: 17px;
+}
+
+#i1{
+    display: flex;
+    position: absolute;
+    left: 50%;
+    top: 54%;
+    font-size: 35px;
+    gap: 1350px;
+    transform: translate(-50%,-50%);
+}
+
+#page1 h2{
+    position: absolute;
+    left: 50%;
+    top: 7.5%;
+    transform: translate(-50%,-50%);
+    font-size: 30px;
+}
+
+#nav1{
+    position: absolute;
+    left: 49%;
+    top: 7.5%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    align-items: center;
+    gap: 500px;
+}
+
+#nav1 #left{
+    display: flex;
+    width: 450px;
+}
+
+#nav1 #right{
+    display: flex;
+    width: 400px;
+}
+
+#nav1 h4{
+    font-weight: 500;
+    padding-left: 50px;
+}
+
+#nav1 i{
+    padding-left: 7px;
+}
+
+#page2{
+    height: 50vh;
+    width: 100vw;
+    padding: 0.1px ;
+    position: relative;
+    background-color: rgb(82, 77, 77);
+    color: white;
+}
+
+#page2 img{
+    height: 110px;
+    width: 150px;
+}
+
+#page2 #img2{
+    position: absolute;
+    top: 10%;
+    display: flex;
+    gap: 8px;
+    left: 55%;
+}
+
+#page2 p{
+    position: absolute;
+    top: 53%;
+    left: 55%;
+    font-size: 16px;
+}
+
+#page2 h1{
+    text-transform: uppercase;
+    text-align: right;
+    position: absolute;
+    top: 8%;
+    font-size: 50px;
+    font-weight: 500;
+    left: 20%;
+}
+
+#page3{
+    height: 100vh;
+    width: 100vw;
+    padding: 0.1px;
+    position: relative;
+    background-image: url(https://images.unsplash.com/photo-1507149677524-254e3ebb240f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2071&q=80);
+    background-position: center;
+    background-size: cover;
+}
+
+#page3 #overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.786);
+}
+
+#page3 #top3 h1{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 3;
+    color: white;
+    top: 8%;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 50px;
+    font-weight: 500;
+}
+
+#page3 #top3 p{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 3;
+    color: white;
+    top: 14%;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 18px;
+    font-weight: 200;
+}
+
+#partition{
+    margin-top: 50px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    align-items: center;
+    position: absolute;
+    color: white;
+    gap: 80px;
+}
+
+#partition1{
+    width: 350px;
+}
+
+#partition2{
+    width: 350px;
+}
+
+#partition3{
+    width: 350px;
+}
+
+#partition img{
+    height: 220px;
+    width: 320px;
+    object-fit: cover;
+    object-position: center;
+}
+
+#partition h2{
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+#partition h6{
+    font-weight: 100;
+    text-transform: uppercase;
+    font-size: 12px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#partition p{
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 25px;
+}
+
+#partition button{
+    padding: 8px 20px;
+    background-color: transparent;
+    border: 2px solid grey;
+    color: white;
+    font-size: 15px;
+    text-transform: uppercase;
+    transition: all ease 0.2s;
+    margin-left: 10px;
+}
+
+#partition button:hover{
+    background-color: grey;
+    border: 2px solid white;
+}
+
+#page4{
+    padding: 0.1px;
+    height: 80vh;
+    width: 100vw;
+    background-color: white;
+    overflow: hidden;
+    position: relative;
+}
+
+#page4 img{
+    height: 520px;
+    width: 450px;
+    position: absolute;
+    left: 15%;
+    top: 5%;
+    z-index: 9999;
+}
+
+#page4 h1{
+    font-size: 50px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    line-height: 50px;
+    font-weight: 700;
+    position: absolute;
+    top: 18%;
+    left: 50%;
+}
+
+#page4 h3{
+    position: absolute;
+    left: 50.2%;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: rgb(30, 161, 243);
+    font-weight: 400;
+    top: 37%;
+}
+
+#page4 p{
+    position: absolute;
+    left: 50.2%;
+    text-transform: uppercase;
+    top: 50%;
+}
+
+#page5{
+    padding: 0.1px;
+    color: white;
+    position: relative;
+    height: 80vh;
+    width: 100vw;
+    background-color: rgb(72, 69, 69);
+}
+
+#page5 img{
+    height: 520px;
+    width: 450px;
+    position: absolute;
+    left: 55%;
+    top: 7%;
+}
+
+#page5 h1 i{
+    margin-right: -17px;
+    z-index: 1;
+    font-size: 30px;
+    background-color: black;
+    padding: 8px 10px;
+}
+
+#page5 h1{
+    text-transform: uppercase;
+    font-size: 35px;
+    letter-spacing: 5px;
+    margin-top: 85px;
+    margin-left: 150px;
+    margin-bottom: 40px;
+}
+
+#page5 p{
+    font-size: 17px;
+    font-weight: 400;
+    margin-left: 150px;
+    line-height: 25px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+#page5 h3{
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: rgb(30, 161, 243);
+    font-weight: 400;
+    margin-left: 150px;
+}
+
+#page6{
+    padding: 0.1px;
+    position: relative;
+    height: 75vh;
+    width: 100vw;
+    background-color: white;
+}
+
+#scroller{
+    white-space: nowrap;
+    height: 420px;
+    display: inline-block;
+    width: 100%;
+    position: absolute;
+    top: 10%;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+.elem img{
+    object-fit: cover;
+    object-position: center;
+    height: 170px;
+    width: 250px;
+    margin-bottom: 30px;
+}
+
+.elem p{
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 27px;
+}
+
+#container{
+    height: 100%;
+    width: 100%;
+    white-space: nowrap;
+    display: inline-block;
+    animation-name: scroll;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.elem{
+    display: inline-block;
+    margin-right: 52px;
+}
+
+#scroller::-webkit-scrollbar{
+    display: none;
+}
+
+@keyframes scroll {
+    0%{
+        transform: translateX(0%);
+    }
+    100%{
+        transform: translateX(-100%);
+    }
+}
+
+#page6 #btn{
+    position: absolute;
+    left: 50%;
+    top: 90%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    gap: 40px;
+}
+
+#btn button{
+    text-transform: uppercase;
+    padding: 3px 18px;
+    border: 2px solid black;
+    background-color: black;
+    color: white;
+    font-size: 12px;
+    font-weight: 500;
+    transition: all ease 0.4s;
+}
+
+#btn button:hover{
+    background-color: grey;
+    color: black;
+
+}
+
+#scroller:hover{
+    animation-play-state: paused;
+}
+
+#main{
+    overflow-x: hidden;
+}
+
+#page7{
+    padding: 0.1px;
+    position: relative;
+    background-image: url(https://images.unsplash.com/photo-1531390979850-32568e0159ce?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1931&q=80);
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+    width: 100vw;
+}
+
+#page7 #overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.716);
+}
+
+#page7 h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+#i7{
+    display: flex;
+    position: absolute;
+    gap: 10px;
+    top: 38%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    z-index: 999;
+    font-size: 40px;
+}
+
+#page7 h5{
+    position: absolute;
+    top: 90%;
+    font-weight: 500;
+    left: 90%;
+    transform: translate(-50%,-50%);
+    color: white;
+    text-transform: uppercase;
+    width: 300px;
+}
+
+#page7 #text{
+    display: flex;
+    position: absolute;
+    top: 88%;
+    left:30%;
+    transform: translate(-50%,-50%);
+    color: white;
+    text-transform: capitalize;
+    gap: 25px;
+}
+
+#page7 #text h4{
+    font-weight: 300;
+}
